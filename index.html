@@ -1,11 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8" />
+    <title>Andrew Stewart - Work</title>
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="fonts/faktum.css" />
+
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon.png" />
   </head>
   <body>
-    <h1>Hello world</h1>
+    <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <nav>
+      <a href="index.html">
+        <div id="logo">a.stewart</div>
+      </a>
+      <div id="menu">
+        <a class="menu-item" id="here" href="index.html">Work</a>
+        <a class="menu-item" href="about.html">About</a>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div id="hey">
+        <h2>
+          Hey, it's Andrew—<span class="thistle"
+            ><br />
+            I’m a product designer and dev-in-training camped out at the
+            intersection of design and code.</span
+          >
+        </h2>
+      </div>
+
+      <div id="project-grid">
+        <div class="project-preview" id="project-one">
+          <a href="https://bandwich-app.herokuapp.com/">
+            <img class="project-thumbnail" src="images/bandwich.png" alt="" />
+            <div class="project-summary">
+              <p class="project-title">Bandwich</p>
+              <p class="project-description caption">
+                A simple 4-track recording interface designed with collaboration
+                in mind
+              </p>
+            </div>
+          </a>
+          <a
+            href="https://github.com/stewdiostash/bandwich"
+            class="caption git-link"
+            >On Github &rarr;</a
+          >
+        </div>
+
+        <div class="project-preview" id="project-two">
+          <a href="https://stewdiostash.github.io/hw-06-weather-dashboard/">
+            <img class="project-thumbnail" src="images/forecast.png" alt="" />
+            <div class="project-summary">
+              <p class="project-title">Weather Dashboard</p>
+              <p class="project-description caption">
+                Responsive weather dashboard linked to multiple Openweathermap
+                APIs
+              </p>
+            </div>
+          </a>
+          <a
+            href="https://github.com/stewdiostash/hw-06-weather-dashboard"
+            class="caption git-link"
+            >On Github &rarr;</a
+          >
+        </div>
+
+        <div class="project-preview" id="project-three">
+          <a href=" https://burger-buddy-app.herokuapp.com/">
+            <img
+              class="project-thumbnail"
+              src="images/burgerbuddy.png"
+              alt=""
+            />
+            <div class="project-summary">
+              <p class="project-title">Burger Buddy</p>
+              <p class="project-description caption">
+                Keeping a persistent tally of cullinary conquests with MySQL
+              </p>
+            </div>
+          </a>
+          <a
+            href="https://burger-buddy-app.herokuapp.com/"
+            class="caption git-link"
+            >On Heroku &rarr;</a
+          >
+        </div>
+
+        <div class="project-preview" id="project-four">
+          <a href="https://stewdiostash.github.io/PlaytSafe/">
+            <img class="project-thumbnail" src="images/playtsafe.png" alt="" />
+            <div class="project-summary">
+              <p class="project-title">Play'tSafe</p>
+              <p class="project-description caption">
+                Time-saving app that proposes creative movie and dinner combos
+              </p>
+            </div>
+          </a>
+          <a
+            href="https://github.com/stewdiostash/PlaytSafe"
+            class="caption git-link"
+            >On Github &rarr;</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <footer>Obligatory footer</footer>
+
+    <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   </body>
 </html>
